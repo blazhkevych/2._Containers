@@ -32,5 +32,11 @@ namespace task_2
         {
             InitializeComponent();
         }
+
+        private void Button7ClickEvent(object sender, RoutedEventArgs e)
+        {
+            // Добавляем цифру 7 в поле ввода/
+            TextBox1.Text += "7";
+        }
     }
 }
