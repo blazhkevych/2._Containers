@@ -20,10 +20,10 @@ namespace task_2
     /// </summary>
 
     /// <summary>
-    ///                             Задание 2
-    /// Разработать WPF-приложение для ввода шифра. У правой границы окна
-    /// должна быть расположена цифровая панель. При изменении размеров окна
-    /// поле ввода цифр должно занимать все свободное пространство окна.
+    ///                             Задание 2                                                              /// Task 2
+    /// Разработать WPF-приложение для ввода шифра.                                                        /// Develop a WPF application for entering a cipher.
+    /// У правой границы окна должна быть расположена цифровая панель.                                     /// A number pad should be located at the right border of the window.
+    /// При изменении размеров окна поле ввода цифр должно занимать все свободное пространство окна.       /// When resizing the window, the number input field must occupy all the free space of the window.
     /// </summary>
 
     public partial class MainWindow : Window

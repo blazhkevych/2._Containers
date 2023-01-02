@@ -16,9 +16,8 @@ using System.Windows.Shapes;
 namespace task_4
 {
     /// <summary>
-    ///                     Задание 4
-    /// Разработать WPF-приложение, используя различные контейнеры
-    /// компоновки.
+    ///                     Задание 4                                                 /// Task 4
+    /// Разработать WPF-приложение, используя различные контейнеры компоновки.        /// Develop a WPF application using various layout containers.
     /// </summary>
     public partial class MainWindow : Window
     {

@@ -20,9 +20,8 @@ namespace task_3
     /// </summary>
 
     /// <summary>
-    ///                         Задание 3
-    /// Разработать WPF-приложение для вычисления определителя матрицы
-    /// размером 3×3.
+    ///                         Задание 3                                                  /// Task 3
+    /// Разработать WPF-приложение для вычисления определителя матрицы размером 3×3.       /// Develop a WPF application to compute the determinant of a 3x3 matrix.
     /// </summary>
 
     public partial class MainWindow : Window
