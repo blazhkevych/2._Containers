@@ -3,112 +3,121 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:task_2"
         mc:Ignorable="d"
         Title="tss....password is 12345" Height="450" Width="800">
     <Grid Name="GridText">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <TextBlock  
-                Name="TextBox1"
-                TextWrapping="WrapWithOverflow"
-                Grid.Row="0" 
-                Grid.Column="0"
-                Margin="5,5,5,5" 
-                TextAlignment="Center"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Center"
-                FontSize="52">
-        </TextBlock>
-        <Grid Name="GridButtons" Grid.Column="1" >
+        <TextBlock
+            Name="TextBox1"
+            TextWrapping="WrapWithOverflow"
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="5,5,5,5"
+            TextAlignment="Center"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            FontSize="52" />
+        <Grid Name="GridButtons" Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button 
-                Name ="Button7"
-                Click="Button7ClickEvent"
-                Grid.Row="0" Grid.Column="0" 
-                Margin="5,5,5,5" 
+            <Button
+                Name="Button7"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="0" Grid.Column="0"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="7"></Button>
-            <Button 
-                Name ="Button8"
-                Grid.Row="0" Grid.Column="1" 
-                Margin="5,5,5,5" 
+                Content="7" />
+            <Button
+                Name="Button8"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="0" Grid.Column="1"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="8"></Button>
-            <Button 
-                Name ="Button9"
-                Grid.Row="0" Grid.Column="2" 
-                Margin="5,5,5,5" 
+                Content="8" />
+            <Button
+                Name="Button9"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="0" Grid.Column="2"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="9"></Button>
-            <Button 
-                Name ="Button4"
-                Grid.Row="1" Grid.Column="0" 
-                Margin="5,5,5,5" 
+                Content="9" />
+            <Button
+                Name="Button4"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="1" Grid.Column="0"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="4"></Button>
-            <Button 
-                Name ="Button5"
-                Grid.Row="1" Grid.Column="1" 
-                Margin="5,5,5,5" 
+                Content="4" />
+            <Button
+                Name="Button5"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="1" Grid.Column="1"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="5"></Button>
-            <Button 
-                Name ="Button6"
-                Grid.Row="1" Grid.Column="2" 
-                Margin="5,5,5,5" 
+                Content="5" />
+            <Button
+                Name="Button6"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="1" Grid.Column="2"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="6"></Button>
-            <Button 
-                Name ="Button1"
-                Grid.Row="2" Grid.Column="0" 
-                Margin="5,5,5,5" 
+                Content="6" />
+            <Button
+                Name="Button1"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="2" Grid.Column="0"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="1"></Button>
-            <Button 
-                Name ="Button2"
-                Grid.Row="2" Grid.Column="1" 
-                Margin="5,5,5,5" 
+                Content="1" />
+            <Button
+                Name="Button2"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="2" Grid.Column="1"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="2"></Button>
-            <Button 
-                Name ="Button3"
-                Grid.Row="2" Grid.Column="2" 
-                Margin="5,5,5,5" 
+                Content="2" />
+            <Button
+                Name="Button3"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="2" Grid.Column="2"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="3"></Button>
-            <Button 
-                Name ="ButtonC"
-                Grid.Row="3" Grid.Column="0" 
-                Margin="5,5,5,5" 
+                Content="3" />
+            <Button
+                Name="ButtonC"
+                Click="ButtonC_OnClickClickEvent"
+                Grid.Row="3" Grid.Column="0"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="C"></Button>
-            <!--очищает поле ввода-->
-            <Button 
-                Name ="Button0"
-                Grid.Row="3" Grid.Column="1" 
-                Margin="5,5,5,5" 
+                Content="C" />
+            <!--clears the input field-->
+            <Button
+                Name="Button0"
+                Click="ButtonNumbersClickEvent"
+                Grid.Row="3" Grid.Column="1"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="0"></Button>
-            <Button 
-                Name ="ButtonOk"
-                Grid.Row="3" Grid.Column="2" 
-                Margin="5,5,5,5" 
+                Content="0" />
+            <Button
+                Name="ButtonOk"
+                Click="ButtonOk_OnClickClickEvent"
+                Grid.Row="3" Grid.Column="2"
+                Margin="5,5,5,5"
                 FontSize="52"
-                Content="OK"></Button>
-            <!--подтверждает ввод-->
+                Content="OK" />
+            <!--confirms input-->
         </Grid>
     </Grid>
 </Window>

@@ -5,61 +5,95 @@
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <WrapPanel Grid.Column="0">
-            <Button Margin="2.0" 
-                MinWidth="100"
-                Background="Navy">Navy</Button>
-            <Button Margin="2.0" 
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Blue">Blue</Button>
-            <Button Margin="2.0" 
+                    Background="Navy">
+                Navy
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Aqua">Aqua</Button>
-            <Button Margin="2.0" 
+                    Background="Blue">
+                Blue
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Teal">Teal</Button>
-            <Button Margin="2.0" 
+                    Background="Aqua">
+                Aqua
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Olive">Olive</Button>
-            <Button Margin="2.0" 
+                    Background="Teal">
+                Teal
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Green">Green</Button>
-            <Button Margin="2.0" 
+                    Background="Olive">
+                Olive
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Lime">Lime</Button>
-            <Button Margin="2.0" 
+                    Background="Green">
+                Green
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Yellow">Yellow</Button>
-            <Button Margin="2.0" 
+                    Background="Lime">
+                Lime
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Orange">Orange</Button>
-            <Button Margin="2.0" 
+                    Background="Yellow">
+                Yellow
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Red">Red</Button>
-            <Button Margin="2.0" 
+                    Background="Orange">
+                Orange
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Maroon">Maroon</Button>
-            <Button Margin="2.0" 
+                    Background="Red">
+                Red
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Fuchsia">Fuchsia</Button>
-            <Button Margin="2.0" 
+                    Background="Maroon">
+                Maroon
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Purple">Purple</Button>
-            <Button Margin="2.0" 
+                    Background="Fuchsia">
+                Fuchsia
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Black">Black</Button>
-            <Button Margin="2.0" 
+                    Background="Purple">
+                Purple
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Silver">Silver</Button>
-            <Button Margin="2.0" 
+                    Background="Black">
+                Black
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="Gray">Gray</Button>
-            <Button Margin="2.0" 
+                    Background="Silver">
+                Silver
+            </Button>
+            <Button Margin="2.0"
                     MinWidth="100"
-                    Background="White">White</Button>
+                    Background="Gray">
+                Gray
+            </Button>
+            <Button Margin="2.0"
+                    MinWidth="100"
+                    Background="White">
+                White
+            </Button>
         </WrapPanel>
     </Grid>
 </Window>
