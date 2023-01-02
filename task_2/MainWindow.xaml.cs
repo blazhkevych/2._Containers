@@ -35,8 +35,19 @@ namespace task_2
 
         private void Button7ClickEvent(object sender, RoutedEventArgs e)
         {
-            // Добавляем цифру 7 в поле ввода/
-            TextBox1.Text += "7";
+            // 2:56:30 about second task
+            // Добавление цифры в поле ввода из кнопок, где значение content от 0 до 9.
+            // Adding a digit to the input field from the buttons, where the value content is from 0 to 9.
+            if (sender is Button button)
+            {
+                if (button.Content is string content)
+                {
+                    if (content[0] >= '0' && content[0] <= '9')
+                    {
+                        TextBox1.Text += content;
+                    }
+                }
+            }
         }
     }
 }
