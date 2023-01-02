@@ -6,7 +6,127 @@
         xmlns:local="clr-namespace:task_3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Name="MainGrid">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF42B53E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2.5*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Name="GridButtons" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBox 
+                Name="TextBox1"  
+                Grid.Row="0" Grid.Column="0" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+                />
+            <TextBox 
+                Name="TextBox2"  
+                Grid.Row="0" Grid.Column="1" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
 
+            <TextBox 
+                Name="TextBox3"  
+                Grid.Row="0" Grid.Column="2" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox4"  
+                Grid.Row="1" Grid.Column="0" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox5"  
+                Grid.Row="1" Grid.Column="1" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox6"  
+                Grid.Row="1" Grid.Column="2" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox7"  
+                Grid.Row="2" Grid.Column="0" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox8"  
+                Grid.Row="2" Grid.Column="1" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+            <TextBox 
+                Name="TextBox9"  
+                Grid.Row="2" Grid.Column="2" 
+                Margin="5,5,5,5"
+                Text=""
+                TextAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="52"
+                TextWrapping="Wrap"
+            />
+        </Grid>
+        <Button Name="ButtonResult" 
+                Click="ButtonResult_OnClick"
+                Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  
+                FontSize="52" Content="=" Margin="5,169,0,0" VerticalAlignment="Top" 
+                HorizontalAlignment="Left" BorderThickness="1,1,1,1" Width="96" Height="88" RenderTransformOrigin="0.5,0.5" Padding="1,1,1,1"/>
+        <Label x:Name="LabelResult" Grid.Column="1" Content="" HorizontalAlignment="Left" 
+               Margin="106,169,0,0" VerticalAlignment="Top" Width="113" FontSize="36" Height="88"/>
+        <!--button size-->
     </Grid>
 </Window>
