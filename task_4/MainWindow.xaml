@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:task_4"
         mc:Ignorable="d"
         Title="MainWindow" Height="188" Width="551">
     <Grid Name="MainGrid">
@@ -17,21 +16,21 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="42*" />
-                <ColumnDefinition Width="240*"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="240*" />
+                <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="283*" />
             </Grid.ColumnDefinitions>
 
-            <GridSplitter Grid.Row="0" Grid.Column="2" Grid.RowSpan="1"                
+            <GridSplitter Grid.Row="0" Grid.Column="2"
                           Width="4" HorizontalAlignment="Center"
-                          ShowsPreview="True"/>
+                          ShowsPreview="True" />
 
             <StackPanel Grid.Column="0" Margin="3,3,2,3" Name="StackPanel1" Grid.ColumnSpan="2">
-                <Button Content="Почта" Margin="3"  MinWidth="100" HorizontalAlignment="Stretch"></Button>
-                <Button Content="Календарь" Margin="3"  MinWidth="100" HorizontalAlignment="Stretch"></Button>
-                <Button Content="Задачи" Margin="3" MinWidth="100" HorizontalAlignment="Stretch"></Button>
-                <Button Content="Журнал" Margin="3" MinWidth="100" HorizontalAlignment="Stretch"></Button>
-                <Button Content="Почта" Margin="3" MinWidth="100" HorizontalAlignment="Stretch"></Button>
+                <Button Content="Почта" Margin="3" MinWidth="100" HorizontalAlignment="Stretch" />
+                <Button Content="Календарь" Margin="3" MinWidth="100" HorizontalAlignment="Stretch" />
+                <Button Content="Задачи" Margin="3" MinWidth="100" HorizontalAlignment="Stretch" />
+                <Button Content="Журнал" Margin="3" MinWidth="100" HorizontalAlignment="Stretch" />
+                <Button Content="Почта" Margin="3" MinWidth="100" HorizontalAlignment="Stretch" />
             </StackPanel>
 
             <DockPanel Grid.Column="3" LastChildFill="True">
@@ -39,14 +38,22 @@
             </DockPanel>
 
         </Grid>
-        <Button Padding="2" Grid.Row="0" Content="Создать" HorizontalAlignment="Left" Margin="6,5,5,5" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Изменить" HorizontalAlignment="Left" Margin="58,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Удалить" HorizontalAlignment="Left" Margin="121,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Сохранить" HorizontalAlignment="Left" Margin="174,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Сохранить как" HorizontalAlignment="Left" Margin="241,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Открыть" HorizontalAlignment="Left" Margin="329,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Выход" HorizontalAlignment="Left" Margin="384,0,0,0" VerticalAlignment="Center"/>
-        <Button Padding="2" Grid.Row="0" Content="Завершение сеанса" HorizontalAlignment="Left" Margin="427,0,0,0" VerticalAlignment="Center"/>
+        <Button Padding="2" Grid.Row="0" Content="Создать" HorizontalAlignment="Left" Margin="6,5,5,5"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Изменить" HorizontalAlignment="Left" Margin="58,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Удалить" HorizontalAlignment="Left" Margin="121,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Сохранить" HorizontalAlignment="Left" Margin="174,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Сохранить как" HorizontalAlignment="Left" Margin="241,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Открыть" HorizontalAlignment="Left" Margin="329,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Выход" HorizontalAlignment="Left" Margin="384,0,0,0"
+                VerticalAlignment="Center" />
+        <Button Padding="2" Grid.Row="0" Content="Завершение сеанса" HorizontalAlignment="Left" Margin="427,0,0,0"
+                VerticalAlignment="Center" />
 
     </Grid>
 </Window>
